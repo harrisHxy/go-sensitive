@@ -7,14 +7,11 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/anknown/ahocorasick"
 	"io"
 	"os"
 	"runtime"
 	"strings"
-)
-
-import (
-	"github.com/anknown/ahocorasick"
 )
 
 func checkErr(err error) {
